@@ -1,0 +1,158 @@
+body{
+ margin: 0 auto;
+ font:100% arial, helvetica, sans-serif, verdana;
+ color: white;
+ background-image: linear-gradient(darkblue,black);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ text-align: left;
+ text-shadow: 1px 1px 2px #000000;
+ margin: 5%;   
+}
+form{
+ font-family:arial;
+ max-width: 100%;
+}
+p{
+ font-family:arial;
+ margin: auto;
+}
+#div{
+  font-family:arial;
+  display: flex;
+  max-width: 35%;
+  order:2;
+ }
+header{
+ font-family:arial;
+ border: none; 
+ margin: auto;
+ width: auto;
+ height: auto;
+ order:1;
+}
+main{
+ font-family:arial;
+ justify-content: center;
+ display:inline;
+}
+ footer{
+ background:black;
+ color: white;
+ font-family:arial;
+ border: none; 
+ display: flex;
+ margin: auto;
+ order:3;
+}
+hr{
+ border-color: #836FFF;
+ margin: auto;
+}
+#logo{
+ max-width:20%;
+ position: fixed;
+ top: 0;
+ bottom: 0;
+ left: 1;
+ right: 0;
+ border: 0px solid;
+ #filter: drop-shadow(16px 16px 5px black);
+}
+#banner{
+  max-width:100%;
+  opacity: 0.7;
+}
+img{
+ max-width:100%;
+ opacity: 0.7;
+}
+#button_menu {
+ background-color: goldenrod;
+ padding: 5px;
+ text-decoration: none;
+ border-radius: 10px;
+ cursor: pointer;
+ display:flex;
+ color:#ffffff;
+}
+input {
+  background-color: goldenrod;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display:flex;
+  color:#ffffff;
+ }
+textarea {
+  background-color: goldenrod;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display:flex;
+  color:#ffffff;
+ }
+#menu{
+ font-family:arial;
+ border: none;
+ justify-content: center;
+ display:flex;
+ margin: auto;
+ border: 0px solid;
+ filter: drop-shadow(16px 16px 5px black);
+}
+#table{
+ color: white;
+ background-image: linear-gradient(goldenrod,#836FFF);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ text-align: left;
+ text-shadow: 1px 1px 2px #000000;
+ margin: 0 auto;  
+ align-items: center;
+ }
+ td{
+  vertical-align: top;
+ }
+a:visited {
+  color: white;
+}
+a:hover {
+  color: lightgoldenrodyellow;
+}
+input{
+  max-width: 50%;
+}
+div{
+  display: grid;
+}
+#newuser{
+display: inline;
+background: white;
+}
+#user{
+display: inline;
+background: white;
+}
+fieldset {
+ color: white;
+ background-image: linear-gradient(goldenrod);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ text-align: left;
+ text-shadow: 1px 1px 2px #000000;
+ margin: 0 auto;  
+ align-items: center;
+ }
+legend, span {
+ color: white;
+ text-shadow: 1px 1px 2px #000000;
+}
+#divform{
+  display: inline-table;
+}
+#photo{
+  width: 150px;
+}
